@@ -176,6 +176,7 @@ with st.sidebar:
             """, unsafe_allow_html=True)
 
 # --- MAIN APP LAYOUT ---
+st.image("preview.png", use_column_width=True)
 st.markdown('<h1 class="main-header">Spam vs Ham Email Classifier</h1>', unsafe_allow_html=True)
 
 # Layout Columns
