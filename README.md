@@ -1,4 +1,4 @@
-# 📧 Spam vs Ham Email Classifier - AI Detection System
+#  Spam vs Ham Email Classifier - AI Detection System
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project is a high-performance **Spam Email Detection System** developed as part of my internship at **NovaXccelerate**. It leverages advanced Machine Learning techniques to differentiate between "Spam" and "Ham" (legitimate) messages with high precision.
 
@@ -15,26 +15,26 @@ The application features a modern, cyberpunk-inspired UI built with **Streamlit*
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
--   **⚡ Real-Time Analysis:** Instantly classify any email or SMS content as Spam or Ham using AI.
--   **📊 Batch Processing:** Upload a CSV file containing multiple messages and get a detailed classification report in seconds.
--   **🎨 Cyberpunk Aesthetic:** A premium, dark-themed UI with glow effects and responsive components.
--   **📜 Scan History:** Keep track of your recent scans with a convenient history sidebar.
--   **🔍 AI Confidence Scoring:** View the statistical confidence level of each prediction to understand the model's certainty.
--   **💾 Intelligent Initializer:** Automatically trains and optimizes the model on the first run using local datasets.
+-   ** Real-Time Analysis:** Instantly classify any email or SMS content as Spam or Ham using AI.
+-   ** Batch Processing:** Upload a CSV file containing multiple messages and get a detailed classification report in seconds.
+-   ** Cyberpunk Aesthetic:** A premium, dark-themed UI with glow effects and responsive components.
+-   ** Scan History:** Keep track of your recent scans with a convenient history sidebar.
+-   ** AI Confidence Scoring:** View the statistical confidence level of each prediction to understand the model's certainty.
+-   ** Intelligent Initializer:** Automatically trains and optimizes the model on the first run using local datasets.
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
-### 🧠 The Model
+### The Model
 The core intelligence is powered by a **Logistic Regression** classifier, optimized with:
 -   **TF-IDF Vectorization:** Converts raw text into numerical features while emphasizing unique keywords.
 -   **Balanced Class Weights:** Specifically tuned to handle the native imbalance between spam and ham messages.
 -   **Scikit-Learn Pipeline:** Ensures consistency between training and inference phases.
 
-### 🛠️ Tech Stack
+### Tech Stack
 -   **Frontend:** Streamlit (with Custom CSS/HTML Injection for premium UI)
 -   **Backend:** Python 3.x
 -   **Machine Learning:** Scikit-learn, Pandas, NumPy
@@ -42,7 +42,7 @@ The core intelligence is powered by a **Logistic Regression** classifier, optimi
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── data/
@@ -57,7 +57,7 @@ The core intelligence is powered by a **Logistic Regression** classifier, optimi
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1.  **Clone the Repository:**
     ```bash
@@ -83,7 +83,7 @@ The core intelligence is powered by a **Logistic Regression** classifier, optimi
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1.  **Manual Check:** Paste your email content into the main text area and click **"VERIFY INTEGRITY"**.
 2.  **Batch Check:** Use the sidebar to upload a CSV file (ensure it has a column named `Message` or `text`).
@@ -91,19 +91,19 @@ The core intelligence is powered by a **Logistic Regression** classifier, optimi
 
 ---
 
-## 🎓 Internship Project
+## Internship Project
 
 This project was developed during my tenure as an AI/ML intern at **NovaXccelerate**. It demonstrates the practical application of Natural Language Processing (NLP), feature engineering, and modern web deployment strategies in a real-world scenario.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have any suggestions to improve the model accuracy or UI, feel free to fork the repo and submit a PR.
 
 ---
 
-## 📝 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
